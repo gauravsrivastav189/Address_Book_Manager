@@ -1,0 +1,26 @@
+<!-- contacts/templates/contacts/contact_detail.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Detail</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="container">
+
+    <h1 class="mt-5">Contact Detail</h1>
+
+    <div class="mt-4">
+        <p class="mb-2"><strong>Name:</strong> {{ contact.name }}</p>
+        <p class="mb-2"><strong>Email:</strong> {{ contact.email }}</p>
+        <p class="mb-2"><strong>Phone:</strong> {{ contact.phone }}</p>
+        <p class="mb-2"><strong>Address:</strong> {{ contact.address }}</p>
+    </div>
+
+    <!-- Bootstrap JS (Optional, only if needed) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
